@@ -4,7 +4,6 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update && apt-get install -y tzdata
 gem install bundler -v 2.0.1
 # before_install
-nvm install 10.0.0
 npm install -g yarn
 # install
 bundle install --jobs=3 --retry=3
